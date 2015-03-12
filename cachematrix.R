@@ -2,7 +2,7 @@
 ## provide possibility of caching the inverse of a matrix rather than compute 
 ## it repeatedly.
 
-## This function creates a special "matrix" object that can cache its inverse.
+## This function creates a special "matrix" object that can cache its inverse. 
 
 makeCacheMatrix <- function(x = matrix()) {
   inversed <- NULL
